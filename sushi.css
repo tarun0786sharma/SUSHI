@@ -1,0 +1,170 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(index2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: rgba(35, 31, 32);
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+.btn1{
+  background-color:rgba(193, 251, 164,0.6);
+  transparent;border:2px solid transparent;
+  color: black;
+  float: right;
+  margin-right: 65px;
+  width: 170px;
+  height: 50px;
+}
+
+.btn1:hover{
+  background-color: black;
+  color :rgba(193, 251, 164,0.6);
+}
+
+
+ #banner1{
+   background-color: black;
+   color : #c1fba4;
+   padding-top: 3%;
+   height : auto;
+   font-family: Copperplate Gothic Bold;
+ }
+
+ #promo-title{
+   font-family: 'Ma Shan Zheng';
+   margin :60px;
+   font-size: 40px;
+   font-weight: 600;
+ }
+
+ #para{
+     margin : 20px 80px 0 80px;
+     font-size : 15px;
+     font-weight : 600;
+ }
+
+
+ #banner2{
+   background-color: rgba(155, 197, 61,0.6);
+   color : black;
+   padding-top: 3%;
+   height : auto;
+   font-family: Copperplate Gothic Bold;
+ }
+
+
+ .column{
+   background-color: rgba(155, 197, 61,0.7);
+   float: left;
+   width: 25%;
+   height: 200px; /* Should be removed. Only for demonstration */
+ }
+
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+ .border-top {
+   border-top-width: 2px !important;
+ }
+
+a{
+   font-family: 'Ma Shan Zheng';
+   color:#c1fba4;
+}
+a:hover{
+  color: white;
+}
+
+ .column > img{
+   opacity : 0.8;
+ }
+
+ .column > img:hover{
+   opacity : 1;
+ }
+
+ #phto{
+  background-image: url("photo1.jpg");
+  height: 200px;
+  width : 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ }
+
+
+
+ #banner3{
+   background-color: rgba(155, 197, 61);
+   color : black;
+   padding-top: 3%;
+   height : auto;
+   font-family: Copperplate Gothic Bold;
+ }
+
+ #banner4{
+   color : black;
+   padding-top: 3%;
+   height : auto;
+ }
